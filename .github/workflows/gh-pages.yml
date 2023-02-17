@@ -22,7 +22,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: npm start
+        run: sudo npm start
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
